@@ -20,7 +20,7 @@ const bici = [{
 ]
 console.log(bici);
 
-// Trovo la bici con il peso più leggero
+//--- Trovo la bici con il peso più leggero
 let biciLeggera = bici[0];
 
 for (i = 0; i < bici.length; i++) {
@@ -28,7 +28,7 @@ for (i = 0; i < bici.length; i++) {
         biciLeggera = bici[i];
     }
 };
-// Stampo la bici più leggera
+// ----Stampo la bici più leggera
 console.log(biciLeggera);
 
 ///////////////////////////////////////Esercizio 2
@@ -60,5 +60,12 @@ const squadre = [{
         puntiFatti: 0,
         falliSubiti: 0,
     }
-
 ]
+
+// Genero numeri casuali per punti e falli subiti 
+//------Funzione per creare numeri casuali
+
+function numeroCasuale(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(numeroCasuale(1, 1000))
