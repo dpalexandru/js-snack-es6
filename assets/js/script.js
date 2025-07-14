@@ -32,7 +32,7 @@ for (i = 0; i < bici.length; i++) {
 console.log(biciLeggera);
 
 ///////////////////////////////////////Esercizio 2
-
+console.log('///////////////////////////////////////Esercizio 2')
 const squadre = [{
         nome: "cagliari",
         puntiFatti: 0,
@@ -76,4 +76,16 @@ for (i = 0; i < squadre.length; i++) {
     squadre[i].puntiFatti = numeroCasuale(1, 100);
 };
 
-console.log(squadre)
+
+//creo un nuovo array che contenga solo nome squadra e falli 
+const falliSquadre = [];
+
+for (i = 0; i < squadre.length; i++) {
+    let squadra = squadre[i];
+    falliSquadre.push({
+        nome: squadra.nome,
+        falliSubiti: squadra.falliSubiti,
+    })
+}
+
+console.log(falliSquadre);
