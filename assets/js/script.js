@@ -69,7 +69,11 @@ function numeroCasuale(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Assegno num casuale a falli subiti
+// Assegno con un ciclo numeri casuali a falli subiti e punti
 
-squadre[0].falliSubiti = numeroCasuale(1, 1000);
+for (i = 0; i < squadre.length; i++) {
+    squadre[i].falliSubiti = numeroCasuale(1, 1000);
+    squadre[i].puntiFatti = numeroCasuale(1, 100);
+};
+
 console.log(squadre)
