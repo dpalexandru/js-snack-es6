@@ -1,6 +1,5 @@
 js-snack-es6
 ===
-:xxx
 ## Esercizio
 Snack 1
 Creare un array di oggetti:

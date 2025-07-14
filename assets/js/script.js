@@ -68,4 +68,8 @@ const squadre = [{
 function numeroCasuale(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-console.log(numeroCasuale(1, 1000))
+
+// Assegno num casuale a falli subiti
+
+squadre[0].falliSubiti = numeroCasuale(1, 1000);
+console.log(squadre)
