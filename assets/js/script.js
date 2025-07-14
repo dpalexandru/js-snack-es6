@@ -30,3 +30,35 @@ for (i = 0; i < bici.length; i++) {
 };
 // Stampo la bici più leggera
 console.log(biciLeggera);
+
+///////////////////////////////////////Esercizio 2
+
+const squadre = [{
+        nome: "cagliari",
+        puntiFatti: 0,
+        falliSubiti: 0,
+
+    },
+    {
+        nome: "inter",
+        puntiFatti: 0,
+        falliSubiti: 0,
+    }, {
+        nome: "juve",
+        puntiFatti: 0,
+        falliSubiti: 0,
+
+    },
+    {
+        nome: "milan",
+        puntiFatti: 0,
+        falliSubiti: 0,
+
+    },
+    {
+        nome: "napoli",
+        puntiFatti: 0,
+        falliSubiti: 0,
+    }
+
+]
