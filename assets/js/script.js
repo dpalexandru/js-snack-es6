@@ -18,4 +18,15 @@ const bici = [{
         peso: 10,
     },
 ]
-console.log(bici)
+console.log(bici);
+
+// Trovo la bici con il peso più leggero
+let biciLeggera = bici[0];
+
+for (i = 0; i < bici.length; i++) {
+    if (biciLeggera.peso > bici[i].peso) {
+        biciLeggera = bici[i];
+    }
+};
+// Stampo la bici più leggera
+console.log(biciLeggera);
